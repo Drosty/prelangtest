@@ -77,4 +77,9 @@ Prelangtest::Application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
+
+  #->Prelang
+  GA.tracker = "UA-123123123-1"
+
 end
+
